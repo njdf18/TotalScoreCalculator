@@ -80,4 +80,6 @@ public class MainSceneControl : Control
         _total.Text = _defaultResultText[5];
         _error.Text = string.Empty;
     }
+
+    private void OnWatermarkMetaClicked(object meta) => OS.ShellOpen((string)meta);
 }

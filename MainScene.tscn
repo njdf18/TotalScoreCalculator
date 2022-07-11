@@ -265,3 +265,4 @@ text = "Made by njdf18"
 
 [connection signal="pressed" from="Calculate" to="." method="OnCalculatePressed"]
 [connection signal="pressed" from="Clear" to="." method="OnClearPressed"]
+[connection signal="meta_clicked" from="Watermark" to="." method="OnWatermarkMetaClicked"]

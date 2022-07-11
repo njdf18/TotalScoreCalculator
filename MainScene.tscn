@@ -252,5 +252,16 @@ margin_bottom = 664.0
 custom_fonts/font = SubResource( 3 )
 align = 1
 
+[node name="Watermark" type="RichTextLabel" parent="."]
+self_modulate = Color( 1, 1, 1, 0.27451 )
+margin_left = 7.0
+margin_top = 657.0
+margin_right = 306.0
+margin_bottom = 714.0
+custom_fonts/normal_font = ExtResource( 1 )
+bbcode_enabled = true
+bbcode_text = "Made by [url=https://github.com/njdf18]njdf18[/url]"
+text = "Made by njdf18"
+
 [connection signal="pressed" from="Calculate" to="." method="OnCalculatePressed"]
 [connection signal="pressed" from="Clear" to="." method="OnClearPressed"]
